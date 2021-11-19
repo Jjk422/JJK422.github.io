@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.content_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  //width: 50%;
+}
+
+.navbar_style {
+  float: left;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  //background-color: #dddddd;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar_style ul {
+  background-color: #111111;
+  //text-align: center;
+}
+
+.navbar_style li {
+  display: inline;
+  float: left;
+  //background-color: #dddddd;
+  //text-align: center;
+}
+
+.navbar_style a {
+  display: block;
+  padding: 8px;
+}
+
+.header_image_custom {
+  width: 140px;
+  height: 150px;
+  border-radius: 150px;
+}
